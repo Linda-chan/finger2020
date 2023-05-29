@@ -6,7 +6,7 @@ Requires=finger2020.socket
 [Service]
 Type=simple
 ExecStart=/usr/bin/finger2020
-EnvironmentFile=/etc/sysconfig/finger2020.env
+EnvironmentFile=/etc/default/finger2020.env
 StandardInput=socket
 StandardError=journal
 
